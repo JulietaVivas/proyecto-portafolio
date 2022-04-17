@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    display: flexbox;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+  
+}
+
+#nav-bar{
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+#hola{
+    width: 50%;
+    height: 50%;
+}
+
+.colum{
+    float:inline-start
+}
+
