@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,58 +12,101 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Proyecto Portafolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
 
 <body>
     <div class="container">
-        <header >
-            <div class="menuprincipal">
-                <nav id="nav-bar">
-                     <ul class="menudenav">
-                        <li class="lista">
-                            <a class="link" href="#hola">HOLA</a>
+        <!-- comienzo  menu principal -->
+        <header class="header">
 
-                        </li>
-                        <li class="lista">
-                            <a class="link" href="#conocimientos">CONOCIMIENTOS</a>
-                        </li>
-                        <li class="lista">
-                            <a class="link" href="#proyectos">PROYECTOS</a>
-                        </li>
-                        <li class="lista">
-                            <a class="link" href="#contacto">CONTACTO</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="nav-bar">
+                <ul>
+
+                    <li>
+                        <a class="link" href="#hola">HOLA</a>
+                    </li>
+                    <li class="lista">
+                        <a class="link" href="#conocimientos">CONOCIMIENTOS</a>
+                    </li>
+                    <li class="lista">
+                        <a class="link" href="#proyectos">PROYECTOS</a>
+                    </li>
+                    <li> 
+                        <a class="link contact" href="#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+
+            </nav>
+
         </header>
 
-        <div id="hola">
+        <div class="holaSoy" id="hola">
             <div class="column">
-                <h4>¡HOLA!</h4>
-                <h1>SOY JULIETA VIVAS</h1>
+                <h4>¡HOLA! soy </h4>
+                <h1>JULIETA VIVAS</h1>
                 <button>Lo que hago</button>
             </div>
             <div class="column">
-                <img src="imagenes proyecto/undraw_proud_coder_re_exuy.svg">
+                <img src="imagenes proyecto/mujer_programadora.svg">
             </div>
         </div>
 
-        <div id="conocimientos">
+        <div class="conocimientos" id="conocimientos">
             <h2>MIS CONOCIMIENTOS</h2>
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam facere consequatur, quis amet nihil
                 dignissimos quclassem harum sunt iste fugiat.</P>
-            <button>HTML</button>
-            <button>CSS</button>
-            <button>SASS</button>
-            <button>JAVASCRIPT</button>
-            <button>REACT</button>
-            <button>GIT</button>
+
+            <!-- <div class="html5"><i class="devicon-html5-plain colored"></i></div>
+
+            <div class="css"><i class="devicon-css3-plain colored"></i> </div>
+
+            <div class="sass"><i class="devicon-sass-original colored"></i></div>
+
+            <div class="js"><i class="devicon-javascript-plain colored"></i></div>
+
+            <div class="react"><i class="devicon-react-original colored"></i></div>
+
+            <div class="git"><i class="devicon-git-plain colored"></i></div> -->
+
+
+            <ul class="icon-skills">
+                <li><i class="devicon-html5-plain colored"></i>
+                    <p>HTML 5</p>
+                </li>
+                <li><i class="devicon-css3-plain colored"></i>
+                    <p>CSS 3</p>
+                </li>
+                <li><i class="devicon-sass-original colored"></i>
+                    <p>Sass</p>
+                </li>
+                <li><i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                </li>
+                <li><i class="devicon-react-original colored"></i>
+                    <p>React</p>
+                </li>
+                <li><i class="devicon-git-plain colored"></i>
+                    <p>GIT</p>
+                </li>
+            </ul>
+
+
+
+
+
         </div>
 
-        <div id="testimonials">
+        <div class="testimonials">
 
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias molestiae excepturi nobis sit mollitia.
             Commodi ipsum voluptate rem explicabo doloribus corporis numquam molestias, maxime ipsam iusto alias
@@ -71,7 +114,7 @@
             Enim officia aliquid eaque sint eveniet dignissimos.
         </div>
 
-        <div id="proyectos">
+        <div class="proyectos" id="proyectos">
             <h2>PROYECTOS</h2>
             <button>proyeto1</button>
             <button>proyecto2</button>
@@ -82,21 +125,53 @@
 
         </div>
 
-        <div id="contacto">
-            <div class="column">
+        <div class="contacto" id="contacto">
+            <div class="contactame">
                 <h2>CONTACTAME</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ratione voluptatum quod, saepe
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ratione voluptatum quod, saepe Lorem
+                    ipsum dolor sit amet.
                     tenetur
-                    non.</p>
+                    non.
+                </p>
+                <i class="fa-brands fa-twitter"></i> @JuliV93<br>
+                <i class="fa-brands fa-github-alt"></i> JulietaVivas<br>
+                <i class="fa-brands fa-linkedin-in"></i> julietavivas<br>
+                <i class="fa-solid fa-envelope"></i> julietavivas.vj@gmail.com<br>
+
 
             </div>
-            <div class="column">
+            <div class="escribime">
                 <h2>ESCRIBIME</h2>
+
+                <form>
+
+                    <label for="name"> Nombre * </label>
+                    <input id="name" type="text" name="firstname">
+
+                    <label for="apellido"> Apellido * </label>
+                    <input id="apellido" type="text" name="lastname"> <br>
+
+                    <label for="email"> Email *</label> <br>
+                    <input type="text" name="email"> <br>
+
+                    <label for="mensaje"> Mensaje *</label> <br>
+                    <textarea type="text" name="mensaje"> </textarea> <br>
+
+                    <input type="submit" value="enviar">
+
+
+                </form>
+
             </div>
 
         </div>
 
-        <footer id="socialmedia"></footer>
+        <footer class="socialMedia">
+            <!-- <div id="hola">hola</div>
+            <div id="conocimientos">conocimientos</div>
+            <div id="proyectos">proyectos</div>
+            <div id="contacto">contacto</div> -->
+        </footer>
 
 
     </div>

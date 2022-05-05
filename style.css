@@ -1,28 +1,126 @@
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
-.container{
-    display: flexbox;
-    font-family: 'Montserrat', sans-serif;
+.container {
+
     font-family: 'Poppins', sans-serif;
-
-  
+    
 }
 
-#nav-bar{
+.header {
+    
+    width: 100%;
+    height: 80px;
     display: flex;
-    justify-content:flex-end;
+    position: fixed;
+    flex-direction: row-reverse;
+    top: 0;
+    left: 0;
+    box-shadow:  0 4px 20px rgb(134 134 134 / 25%);
+    background-color: white;
 }
 
 
-#hola{
-    width: 50%;
-    height: 50%;
+.nav-bar{
+    display: flex;
+    
+   
 }
 
-.colum{
-    float:inline-start
+.nav-bar ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   
 }
 
+.nav-bar ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    transition: 0.3s all;
+}
+
+
+.nav-bar ul li a.contact{
+    color: white;
+    background-color: #82ff63;
+    border-radius: 4px;
+
+}
+
+.nav-bar ul li a:hover{
+    color: #82ff63;
+}
+
+/* .nav-bar ul li a.contact:hover{
+
+} */
+
+
+.holaSoy {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+
+.conocimientos {
+    background-color: indianred;
+}
+
+.testimonials {
+    background-color: dodgerblue;
+}
+
+.proyectos {
+    background-color: gray;
+}
+
+.contacto {
+    background-color: palevioletred;
+}
+
+.socialMedia {
+    background-color: pink;
+}
+
+.icon-skills {
+    background-color: pink;
+}
+
+.icon-skills {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.icon-skills li {
+    width: 260px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    transition: 0.3s all;
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.icon-skills li p {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-top:20px;
+}
+
+.icon-skills li:hover {
+    border-color: #82ff63;
+}
+
+
+.icon-skills li i {
+    font-size: 4.50em;
+}
