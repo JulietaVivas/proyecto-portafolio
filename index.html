@@ -1,180 +1,299 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Proyecto Portafolio</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <!-- comienzo  menu principal -->
-        <header class="header">
+      <!-- comienzo  menu principal -->
+      <header class="header">
+        <nav class="nav-bar">
+          <ul>
+            <li>
+              <a class="link" href="#hola">HOLA</a>
+            </li>
+            <li class="lista">
+              <a class="link" href="#conocimientos">CONOCIMIENTOS</a>
+            </li>
+            <li class="lista">
+              <a class="link" href="#proyectos">PROYECTOS</a>
+            </li>
+            <li>
+              <a class="link contact" href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- //fin de menu principal// -->
 
-            <nav class="nav-bar">
-                <ul>
+      <!-- //Comienzo seccion presentacion// -->
+      <section class="section-presentacion">
+        <div class="presentacion" id="hola">
+          <div class="column1">
+            <h3 class="saludo">¡Hola! Soy</h3>
+            <h1 class="nombre">Julieta Vivas</h1>
+            <p>Desarroladora, cinefila y curiosa</p>
+            <a href="#conocimientos" class="link-proyectos">LO QUE HAGO</a>
+          </div>
+          <div class="column2">
+            <img src="imagenes proyecto/dev_focus_re_6iwt (1).svg" />
+          </div>
+        </div>
+      </section>
+      <!-- //Fin de seccion presentacion// -->
 
-                    <li>
-                        <a class="link" href="#hola">HOLA</a>
-                    </li>
-                    <li class="lista">
-                        <a class="link" href="#conocimientos">CONOCIMIENTOS</a>
-                    </li>
-                    <li class="lista">
-                        <a class="link" href="#proyectos">PROYECTOS</a>
-                    </li>
-                    <li> 
-                        <a class="link contact" href="#contacto">CONTACTO</a>
-                    </li>
-                </ul>
+      <!-- //Comienzo de seccion conocimientos// -->
+      <section class="conocimientos" id="conocimientos">
+        <h2 class="title">Mis conocimientos</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, cum.
+        </p>
 
-            </nav>
+        <ul class="grid-items">
+          <li>
+            <i class="devicon-html5-plain colored"></i>
+            <p>HTML 5</p>
+          </li>
+          <li>
+            <i class="devicon-css3-plain colored"></i>
+            <p>CSS 3</p>
+          </li>
+          <li>
+            <i class="devicon-sass-original colored"></i>
+            <p>Sass</p>
+          </li>
+          <li>
+            <i class="devicon-javascript-plain colored"></i>
+            <p>JavaScript</p>
+          </li>
+          <li>
+            <i class="devicon-react-original colored"></i>
+            <p>React</p>
+          </li>
+          <li>
+            <i class="devicon-git-plain colored"></i>
+            <p>GIT</p>
+          </li>
+        </ul>
+      </section>
+      <!-- //Fn de seccion conocimientos// -->
 
-        </header>
+      <!-- //Comienzo seccion testimonials// -->
 
-        <div class="holaSoy" id="hola">
-            <div class="column">
-                <h4>¡HOLA! soy </h4>
-                <h1>JULIETA VIVAS</h1>
-                <button>Lo que hago</button>
+      <section class="testimonials">
+        <div class="column-icon">
+          <i class="fa-solid fa-quote-right"></i>
+        </div>
+
+        <div class="texto-testimonio">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+            molestiae excepturi nobis sit mollitia. Commodi ipsum voluptate rem
+            explicabo doloribus corporis numquam molestias, maxime ipsam iusto
+            alias rerum! Enim officia aliquid eaque sint eveniet dignissimos.
+          </p>
+        </div>
+
+        <h3 class="autor">Someone</h3>
+      </section>
+
+      <!-- //Fin seccion testimonials// -->
+
+      <!-- //Comienzo de seccion proyectos// -->
+      <section class="contenedor-proyectos" id="proyectos">
+        <h2 class="title">Mis proyectos</h2>
+        <p class="description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae,
+          ipsa?
+        </p>
+
+        <ul class="grid-items imagenes-proyectos">
+          <li>
+            <img src="imagenes proyecto/portfolio_image.png" />
+            <p>Portfolio</p>
+          </li>
+          <li>
+            <img src="imagenes proyecto/undraw_mobile_user_7oqo.svg" />
+            <p>Generador de memes</p>
+          </li>
+          <li>
+            <img src="imagenes proyecto/undraw_old_day_6x25.svg" />
+            <p>Match 3</p>
+          </li>
+          <li>
+            <img src="imagenes proyecto/undraw_wallet_aym5.svg" />
+            <p>Controlador de gastos</p>
+          </li>
+          <li>
+            <img src="imagenes proyecto/undraw_calendar_dutt.svg" />
+            <p>Administrador de reuniones</p>
+          </li>
+          <li>
+            <img src="imagenes proyecto/undraw_to_do_list_a49b.svg" />
+            <p>Todo app</p>
+          </li>
+          <li>
+            <img src="imagenes proyecto/undraw_movie_night_fldd.svg" />
+            <p>Buscador de películas</p>
+          </li>
+        </ul>
+      </section>
+      <!-- //Fin de seccion proyectos// -->
+
+      <!-- Comienzo de seccion contacto -->
+      <section class="section-contacto">
+        <div class="contact-block">
+          <div class="contactame" id="contacto">
+            <h2 class="title">Contactame</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              ratione voluptatum quod, saepe Lorem ipsum dolor sit amet. tenetur
+              non.
+            </p>
+            <div class="icons-social-links">
+              <ul>
+                <li>
+                  <a href="https://twitter.com/JuliV93"
+                    ><i class="fa-brands fa-twitter"></i>@JuliV93</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/JulietaVivas">
+                    <i class="fa-brands fa-github-alt"></i>JulietaVivas</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/julieta-vivas-a02057141/"
+                    ><i class="fa-brands fa-linkedin-in"></i> julietavivas</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:julietavivas.vj@gmail.com"
+                    ><i class="fa-solid fa-envelope"></i
+                    >julietavivas.vj@gmail.com</a
+                  >
+                </li>
+              </ul>
             </div>
-            <div class="column">
-                <img src="imagenes proyecto/mujer_programadora.svg">
-            </div>
+          </div>
+
+          <div class="escribime">
+            <h2 class="title">Escribime</h2>
+
+            <form>
+              <div class="form-block input-nombre">
+                <label for="name"> Nombre * </label>
+                <input
+                  id="name"
+                  type="text"
+                  name="firstname"
+                  placeholder="p. ej.: Ada"
+                  aria-label="nombre"
+                />
+              </div>
+              <div class="form-block input-apellido">
+                <label for="apellido"> Apellido * </label>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="apellido"
+                  placeholder="p. ej.: Lovelace"
+                />
+              </div>
+              <div class="form-block">
+                <label for="email"> Email *</label>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="p. ej.: Adalovelace@gmail"
+                />
+              </div>
+              <div class="form-block">
+                <label for="mensaje"> Mensaje *</label>
+                <textarea
+                  name="mensaje"
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                  placeholder="Escriba un mensaje aqui"
+                ></textarea>
+              </div>
+              <input type="submit" value="Enviar" class="enviar" />
+            </form>
+          </div>
         </div>
+      </section>
 
-        <div class="conocimientos" id="conocimientos">
-            <h2>MIS CONOCIMIENTOS</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam facere consequatur, quis amet nihil
-                dignissimos quclassem harum sunt iste fugiat.</P>
-
-            <!-- <div class="html5"><i class="devicon-html5-plain colored"></i></div>
-
-            <div class="css"><i class="devicon-css3-plain colored"></i> </div>
-
-            <div class="sass"><i class="devicon-sass-original colored"></i></div>
-
-            <div class="js"><i class="devicon-javascript-plain colored"></i></div>
-
-            <div class="react"><i class="devicon-react-original colored"></i></div>
-
-            <div class="git"><i class="devicon-git-plain colored"></i></div> -->
-
-
-            <ul class="icon-skills">
-                <li><i class="devicon-html5-plain colored"></i>
-                    <p>HTML 5</p>
-                </li>
-                <li><i class="devicon-css3-plain colored"></i>
-                    <p>CSS 3</p>
-                </li>
-                <li><i class="devicon-sass-original colored"></i>
-                    <p>Sass</p>
-                </li>
-                <li><i class="devicon-javascript-plain colored"></i>
-                    <p>JavaScript</p>
-                </li>
-                <li><i class="devicon-react-original colored"></i>
-                    <p>React</p>
-                </li>
-                <li><i class="devicon-git-plain colored"></i>
-                    <p>GIT</p>
-                </li>
-            </ul>
-
-
-
-
-
-        </div>
-
-        <div class="testimonials">
-
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias molestiae excepturi nobis sit mollitia.
-            Commodi ipsum voluptate rem explicabo doloribus corporis numquam molestias, maxime ipsam iusto alias
-            rerum!
-            Enim officia aliquid eaque sint eveniet dignissimos.
-        </div>
-
-        <div class="proyectos" id="proyectos">
-            <h2>PROYECTOS</h2>
-            <button>proyeto1</button>
-            <button>proyecto2</button>
-            <button>proyecto3</button>
-            <button>proyecto4</button>
-            <button>proyecto5</button>
-            <button>proyecto6</button>
-
-        </div>
-
-        <div class="contacto" id="contacto">
-            <div class="contactame">
-                <h2>CONTACTAME</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ratione voluptatum quod, saepe Lorem
-                    ipsum dolor sit amet.
-                    tenetur
-                    non.
-                </p>
-                <i class="fa-brands fa-twitter"></i> @JuliV93<br>
-                <i class="fa-brands fa-github-alt"></i> JulietaVivas<br>
-                <i class="fa-brands fa-linkedin-in"></i> julietavivas<br>
-                <i class="fa-solid fa-envelope"></i> julietavivas.vj@gmail.com<br>
-
-
-            </div>
-            <div class="escribime">
-                <h2>ESCRIBIME</h2>
-
-                <form>
-
-                    <label for="name"> Nombre * </label>
-                    <input id="name" type="text" name="firstname">
-
-                    <label for="apellido"> Apellido * </label>
-                    <input id="apellido" type="text" name="lastname"> <br>
-
-                    <label for="email"> Email *</label> <br>
-                    <input type="text" name="email"> <br>
-
-                    <label for="mensaje"> Mensaje *</label> <br>
-                    <textarea type="text" name="mensaje"> </textarea> <br>
-
-                    <input type="submit" value="enviar">
-
-
-                </form>
-
-            </div>
-
-        </div>
-
-        <footer class="socialMedia">
-            <!-- <div id="hola">hola</div>
-            <div id="conocimientos">conocimientos</div>
-            <div id="proyectos">proyectos</div>
-            <div id="contacto">contacto</div> -->
-        </footer>
-
-
+      <footer>
+        <nav class="navegacion-footer">
+          <ul>
+            <li>
+              <a class="link" href="#hola">HOLA</a>
+            </li>
+            <li class="lista">
+              <a class="link" href="#conocimientos">CONOCIMIENTOS</a>
+            </li>
+            <li class="lista">
+              <a class="link" href="#proyectos">PROYECTOS</a>
+            </li>
+            <li>
+              <a class="link contact" href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social-media-links">
+          <li>
+            <a href="https://twitter.com/JuliV93"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/JulietaVivas"
+              ><i class="fa-brands fa-github-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/julieta-vivas-a02057141/"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:julietavivas.vj@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+        <span class="caption"> Hecho con ❤️ por Ada </span>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
