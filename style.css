@@ -102,7 +102,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 40%;
   transition-property: color;
 }
 
@@ -403,6 +403,7 @@ p {
   font-weight: 500;
   border: 0;
   cursor: pointer;
+  transition-property: border;
 }
 
 
@@ -486,8 +487,8 @@ footer span.caption {
   color: #FFF;
   font-size: 12px;
 }
-
-/* Responsive */
+/* Fin de secciòn footer */
+/* Comienzo de secciòn Responsive */
 @media screen and (max-width:480) { 
   .presentacion{
     flex-direction: column;
@@ -519,4 +520,4 @@ footer span.caption {
   }
   
 }
-
+/* Fin de seccion Responsive */
