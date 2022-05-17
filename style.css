@@ -18,7 +18,7 @@
   flex-direction: row-reverse;
   top: 0;
   left: 0;
-  box-shadow: 0 4px 20px rgb(134 134 134 / 25%);
+  box-shadow: 0 4px 20px #86868640;
   background-color: white;
   padding: 25px 0px 25px 0px;
 }
@@ -54,17 +54,10 @@
 }
 
 .nav-bar ul li a:hover {
-  color:#00bfa6;
+  color:#f573d3;
 }
-.nav-bar ul li a.contact:hover{
-  color: #fff;
-  
-}
-
-@media screen and (max-width: 1000px){
-  .header{
-    flex-direction: column;
-  }
+.nav-bar ul li a.contact:hover {
+  color: #f573d3; 
 }
 
 /* Fin de seccion menu principal */
@@ -109,9 +102,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 60%;
-  
+  transition-property: color;
+}
+
+.link-proyectos:hover{
+  color: #f573d3;
 }
 
 .column2 {
@@ -124,9 +120,6 @@ p {
   width: 50%;
   margin-left: 10%;
 }
-
-
-
 
 /* Fin de seccion presentacion */
 
@@ -304,10 +297,10 @@ p {
 }
 .icons-social-links {
   text-align: start;
-  justify-content: space-around;
-  padding-left: 20px;
   text-decoration: none;
   list-style: none;
+  display: flex;
+  flex-direction: row;
   
 }
 .icons-social-links ul{
@@ -316,25 +309,41 @@ p {
 
 .icons-social-links i {
   padding: 15px 0px;
-  background-color: #fff;
-  color: #00bfa6;
+  background-color: #00bfa6;
+  color: #fff;
   transition: 0.3s all;
   font-size: 20px;
-  border-radius: 100px;
   list-style: none;
   margin-right: 20px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: background-color;
+  transition-duration: 0.2s;
 }
+
 
 .icons-social-links a{
   text-decoration: none;
   color: black;
-  
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  transition-property: color;
 }
 
-.icons-social-links i :hover {
-  color: #00bfa6;
-  
+.icons-social-links i:hover{
+  color:#f573d3;
+  background-color: #FFF;
+  transform: scale(1.2);
+  z-index: 1;
+}
 
+.icons-social-links a:hover{
+  color: #f573d3;
 }
 
 .escribime {
@@ -440,6 +449,7 @@ ul.social-media-links {
   list-style: none;
   justify-content: center;
   display: flex;
+  transition: 1s all;
 }
 
 ul.social-media-links ul li {
@@ -458,7 +468,19 @@ ul.social-media-links li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+.social-media-links i{
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+.social-media-links i:hover{
+  color: #f573d3;
+  transform: scale(1.2);
+  z-index: 1;
+}
+
 
 footer span.caption {
   color: #FFF;
