@@ -493,6 +493,7 @@ footer span.caption {
   .column2 img {
     flex-direction: column;
   }
+
 }
 
 @media screen and (max-width: 900px) {
