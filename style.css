@@ -54,10 +54,10 @@
 }
 
 .nav-bar ul li a:hover {
-  color:#f573d3;
+  color: #f573d3;
 }
 .nav-bar ul li a.contact:hover {
-  color: #f573d3; 
+  color: #f573d3;
 }
 
 /* Fin de seccion menu principal */
@@ -106,7 +106,7 @@ p {
   transition-property: color;
 }
 
-.link-proyectos:hover{
+.link-proyectos:hover {
   color: #f573d3;
 }
 
@@ -301,9 +301,8 @@ p {
   list-style: none;
   display: flex;
   flex-direction: row;
-  
 }
-.icons-social-links ul{
+.icons-social-links ul {
   list-style: none;
 }
 
@@ -325,8 +324,7 @@ p {
   transition-duration: 0.2s;
 }
 
-
-.icons-social-links a{
+.icons-social-links a {
   text-decoration: none;
   color: black;
   display: flex;
@@ -335,14 +333,14 @@ p {
   transition-property: color;
 }
 
-.icons-social-links i:hover{
-  color:#f573d3;
-  background-color: #FFF;
+.icons-social-links i:hover {
+  color: #f573d3;
+  background-color: #fff;
   transform: scale(1.2);
   z-index: 1;
 }
 
-.icons-social-links a:hover{
+.icons-social-links a:hover {
   color: #f573d3;
 }
 
@@ -405,8 +403,7 @@ p {
   cursor: pointer;
   transition-property: border;
 }
-
-
+/* Fin de seccion contacto */
 
 /* Comienzo de seccion footer */
 
@@ -462,62 +459,57 @@ ul.social-media-links li a {
   font-size: 1em;
   margin: 0 10px;
   color: #00bfa6;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 100%;
   width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
-.social-media-links i{
+.social-media-links i {
   transition-property: color;
   transition-duration: 0.2s;
 }
 
-.social-media-links i:hover{
+.social-media-links i:hover {
   color: #f573d3;
   transform: scale(1.2);
   z-index: 1;
 }
 
-
 footer span.caption {
-  color: #FFF;
+  color: #fff;
   font-size: 12px;
 }
 /* Fin de secciòn footer */
+
 /* Comienzo de secciòn Responsive */
-@media screen and (max-width:480) { 
-  .presentacion{
-    flex-direction: column;
 
-  }
-  .column2 img{
+@media screen and (max-width: 480) {
+  .presentacion {
     flex-direction: column;
   }
-
-  
+  .column2 img {
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width:900px){
-  .header{
+@media screen and (max-width: 900px) {
+  .header {
     display: none;
   }
-  .presentacion{
-    flex-direction: column;
-
-  }
-  .column2 img{
-    margin-top: 5vh;
-  }
-  .contact-block{
+  .presentacion {
     flex-direction: column;
   }
-  .escribime{
+  .column2 img {
     margin-top: 5vh;
   }
-  
+  .contact-block {
+    flex-direction: column;
+  }
+  .escribime {
+    margin-top: 5vh;
+  }
 }
 /* Fin de seccion Responsive */
