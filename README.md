@@ -14,7 +14,12 @@ En este trabajo se pueden econtrar los conocimientos y habilidades aprendidas ha
 **HTML**   
 **CSS**   
 
-Miralo acà: []()
+Miralo acà: [Portafolio Julieta](https://julietavivas.github.io/proyecto-portafolio/)
 
 
-Con muchas ganas de seguir aprendiendo y mejorando de la mano de [AdaITW](https://adaitw.org/)
+Con muchas ganas de seguir aprendiendo y mejorando de la mano de [AdaITW](https://adaitw.org/)   
+
+
+
+![10](https://user-images.githubusercontent.com/55170175/114474409-87dd6800-9bcc-11eb-9ca0-538bd30ae29b.png)
+
