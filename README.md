@@ -7,7 +7,7 @@
 
 ### Bienvenides a mi proyecto del primer mòdulo para el desarrollo frontend.    
 
-En este trabajo se pueden econtrar los conocimientos y habilidades aprendidas hasta el momento como ser:
+En este trabajo se pueden encontrar los conocimientos y habilidades aprendidas hasta el momento como ser:
 
 **HTML**   
 **CSS**   
